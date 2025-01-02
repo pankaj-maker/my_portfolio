@@ -1,36 +1,41 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Github, ExternalLink } from 'lucide-react'
+import { motion } from "framer-motion";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce platform with real-time inventory management",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-    github: "#",
-    live: "#",
+    title: "Fisker Next",
+    description:
+      "This interactive web application allows users to personalize cars by changing the color, tires, and interior features. Built with modern web technologies, it provides a seamless and engaging experience for users to customize their vehicle to their liking in real time",
+    technologies: ["Next.js", "Jsx", "React", "Figma"],
+    github: "https://github.com/pankaj-maker/fisker-next", // Replace with your project GitHub link
+    live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
+    title: "Booker App",
+    description:
+      "A collaborative task management application with real-time updates",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/pankaj-maker/fisker-next", // Replace with your project GitHub link
+    live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
   },
   {
     title: "Portfolio Website",
-    description: "A modern portfolio website built with Next.js and Tailwind CSS",
+    description:
+      "A modern portfolio website built with Next.js and Tailwind CSS",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/pankaj-maker/fisker-next", // Replace with your project GitHub link
+    live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
   },
-]
+];
 
 export default function Projects() {
   return (
     <section className="py-20">
-      <h2 className="text-4xl font-bold text-center mb-12 text-white">Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-white">
+        Projects
+      </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <motion.div
@@ -41,7 +46,9 @@ export default function Projects() {
             className="bg-black/30 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden border-[1px] border-[#374151]"
           >
             <div className="p-6">
-              <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
+              <h3 className="text-2xl font-bold mb-2 text-white">
+                {project.title}
+              </h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.technologies.map((tech) => (
@@ -78,6 +85,5 @@ export default function Projects() {
         ))}
       </div>
     </section>
-  )
+  );
 }
-

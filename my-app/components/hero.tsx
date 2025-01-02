@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 
@@ -13,10 +12,10 @@ export default function Hero() {
         className="container mx-auto text-center flex flex-col items-center justify-center h-screen"
       >
         <h1 className="text-5xl md:text-7xl font-bold mb-8 text-white">
-          Hello, I&apos;m a Web Developer
+          Hello, I&apos;m Pankaj Pawar
         </h1>
-        <p className="text-xl md:text-3xl text-gray-200 mb-12 max-w-2xl">
-          Building the future of web development with modern technologies and clean, efficient code.
+        <p className="text-xl md:text-xl text-gray-200 mb-12 max-w-2xl">
+          I am Mern Stack Developer Building the Future of Web Development
         </p>
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
           <Button
@@ -25,13 +24,15 @@ export default function Hero() {
           >
             Hire me
           </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="bg-transparent text-white border-2 border-white hover:bg-white/10 text-lg px-8 py-4"
-          >
-            Resume
-          </Button>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              variant="outline"
+              className="bg-transparent text-white border-2 border-white hover:bg-white/10 text-lg px-8 py-4"
+            >
+              Resume
+            </Button>
+          </a>
         </div>
       </motion.div>
       <motion.div
@@ -43,9 +44,14 @@ export default function Hero() {
       >
         <h2 className="text-3xl font-bold mb-6 text-white">About Me</h2>
         <p className="mb-4 text-lg text-gray-300">
-          I am a passionate web developer with expertise in modern web technologies.
-          I love creating responsive and user-friendly applications that solve real-world problems.
-          My focus is on writing clean, efficient code and implementing best practices in web development.
+        My name is Pankaj Pawar, and I have completed my Bachelor's degree
+          (BE) in the Internet of Things (IoT) branch. Currently, I am focusing
+          on learning MERN stack development. I am working with technologies
+          like React, Node.js, Express.js, and MongoDB, applying them in my
+          personal projects. I have a passion for programming and
+          problem-solving, always striving to tackle new challenges. I believe
+          in continuously improving my skills and creating scalable, efficient
+          solutions.
         </p>
         <p className="text-lg text-gray-300">
           When I'm not coding, I enjoy learning new technologies and contributing to open-source projects.
@@ -55,4 +61,3 @@ export default function Hero() {
     </section>
   )
 }
-

@@ -11,22 +11,28 @@ const skillsData = {
     { name: "HTML/CSS", icon: <Code className="w-4 h-4" /> },
     { name: "Tailwind", icon: <Box className="w-4 h-4" /> },
     { name: "JavaScript", icon: <FileCode className="w-4 h-4" /> },
+    { name: "Shadcn", icon: <Box className="w-4 h-4" /> },
   ],
   Backend: [
     { name: "Node.js", icon: <Server className="w-4 h-4" /> },
     { name: "Express.js", icon: <Server className="w-4 h-4" /> },
     { name: "MongoDB", icon: <Database className="w-4 h-4" /> },
-    { name: "PostgreSQL", icon: <Database className="w-4 h-4" /> },
-    { name: "GraphQL", icon: <Workflow className="w-4 h-4" /> },
+    { name: "Bun", icon: <Server className="w-4 h-4" /> },
+    { name: "Hono", icon: <Server className="w-4 h-4" /> },
+    { name: "Prisma", icon: <Database className="w-4 h-4" /> },
+    { name: "Supabase", icon: <Server className="w-4 h-4" /> },
+    
   ],
-  DevOps: [
-    { name: "Docker", icon: <Container className="w-4 h-4" /> },
-    { name: "AWS", icon: <Cloud className="w-4 h-4" /> },
-    { name: "CI/CD", icon: <Settings className="w-4 h-4" /> },
+  Tools: [
+    { name: "Notion", icon: <Container className="w-4 h-4" /> },
+    { name: "Erasor.io", icon: <Cloud className="w-4 h-4" /> },
+    { name: "Postman", icon: <Settings className="w-4 h-4" /> },
+    { name: "Figma", icon: <Workflow className="w-4 h-4" /> },
+
   ],
-  Mobile: [
-    { name: "React Native", icon: <Smartphone className="w-4 h-4" /> },
-    { name: "Android", icon: <Cpu className="w-4 h-4" /> },
+  Platforms: [
+    { name: "Cloudflare", icon: <Cloud className="w-4 h-4" /> },
+    { name: "Vercel", icon: <Cpu className="w-4 h-4" /> },
   ]
 }
 
@@ -63,8 +69,8 @@ export default function Skills() {
       <div className="grid md:grid-cols-2 gap-6">
         <SkillCategory title="Frontend" skills={skillsData.Frontend} icon={<Blocks className="w-6 h-6 text-blue-400" />} />
         <SkillCategory title="Backend" skills={skillsData.Backend} icon={<Server className="w-6 h-6 text-green-400" />} />
-        <SkillCategory title="DevOps" skills={skillsData.DevOps} icon={<Cog className="w-6 h-6 text-orange-400" />} />
-        <SkillCategory title="Mobile" skills={skillsData.Mobile} icon={<Smartphone className="w-6 h-6 text-purple-400" />} />
+        <SkillCategory title="Tools" skills={skillsData.Tools} icon={<Cog className="w-6 h-6 text-orange-400" />} />
+        <SkillCategory title="Platforms" skills={skillsData.Platforms} icon={<Smartphone className="w-6 h-6 text-purple-400" />} />
       </div>
     </section>
   )
