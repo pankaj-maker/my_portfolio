@@ -1,10 +1,11 @@
-import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+"use client"
+import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center pt-20 px-6">
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
@@ -43,7 +44,7 @@ export default function Hero() {
       >
         <h2 className="text-3xl font-bold mb-6 text-white">About Me</h2>
         <p className="mb-4 text-lg text-gray-300">
-          My name is Pankaj Pawar, and I have completed my Bachelor&apos;s degree
+        My name is Pankaj Pawar, and I have completed my Bachelors degree
           (BE) in the Internet of Things (IoT) branch. Currently, I am focusing
           on learning MERN stack development. I am working with technologies
           like React, Node.js, Express.js, and MongoDB, applying them in my
@@ -53,10 +54,10 @@ export default function Hero() {
           solutions.
         </p>
         <p className="text-lg text-gray-300">
-          When I&apos;m not coding, I enjoy learning new technologies and contributing to open-source projects.
+          When I m not coding, I enjoy learning new technologies and contributing to open-source projects.
           I believe in continuous learning and staying updated with the latest trends in web development.
         </p>
       </motion.div>
     </section>
-  );
+  )
 }

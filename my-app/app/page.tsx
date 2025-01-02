@@ -6,6 +6,8 @@ import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import Sparkles from "@/components/sparkles"
 
+
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black relative overflow-hidden">
