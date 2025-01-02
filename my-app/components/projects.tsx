@@ -13,20 +13,20 @@ const projects = [
     live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
   },
   {
-    title: "Booker App",
+    title: "Password Generator",
     description:
-      "A collaborative task management application with real-time updates",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com/pankaj-maker/fisker-next", // Replace with your project GitHub link
-    live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
+      "A secure and user-friendly password generator website that creates strong, random passwords with just a click. It allows users to customize password length and complexity to ensure maximum security.",
+    technologies: ["React", "Tailwind", "Vite"],
+    github: "https://github.com/pankaj-maker/password_generator",
+    live: "https://glistening-toffee-179c13.netlify.app",
   },
   {
-    title: "Portfolio Website",
+    title: "Pokemon",
     description:
-      "A modern portfolio website built with Next.js and Tailwind CSS",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/pankaj-maker/fisker-next", // Replace with your project GitHub link
-    live: "https://fisker-next-five.vercel.app", // Replace with your live demo link
+      "I built a Pokémon website that allows users to search for their favorite Pokémon and view them as interactive cards. The site features a smooth user experience, where each card showcases essential details about the Pokémon, making it easy to explore the Pokémon universe and submission with an intuitive UI.",
+    technologies: ["React", "Tailwind CSS", "Vite"],
+    github: "https://github.com/pankaj-maker/pokedex", // Replace with your project GitHub link
+    live: "https://pokemo-pokemon.netlify.app", // Replace with your live demo link
   },
 ];
 

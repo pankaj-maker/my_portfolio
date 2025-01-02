@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-8">
         <div className="flex justify-center space-x-6">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/pankaj-maker"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -18,7 +18,7 @@ export default function Footer() {
             <Github className="h-6 w-6" />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/pankaj-pawar-26365020a"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
