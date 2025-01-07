@@ -24,7 +24,7 @@ const projects = [
     title: "Pokemon",
     description:
       "I built a Pokémon website that allows users to search for their favorite Pokémon and view them as interactive cards. The site features a smooth user experience, where each card showcases essential details about the Pokémon, making it easy to explore the Pokémon universe and submission with an intuitive UI.",
-    technologies: ["React", "Tailwind CSS", "Vite"],
+    technologies: ["javascript", "Tailwind CSS", "Vite"],
     github: "https://github.com/pankaj-maker/pokedex", // Replace with your project GitHub link
     live: "https://pokemo-pokemon.netlify.app", // Replace with your live demo link
   },
