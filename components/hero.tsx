@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center pt-20 px-6">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
@@ -18,12 +18,14 @@ export default function Hero() {
           I am Mern Stack Developer Building the Future of Web Development
         </p>
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
-          <Button
-            size="lg"
-            className="bg-transparent text-white border-2 border-white hover:bg-white/10 text-lg px-8 py-4"
-          >
-            Hire me
-          </Button>
+          <a href="mailto:pankajpawar956@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-transparent text-white border-2 border-white hover:bg-white/10 text-lg px-8 py-4"
+            >
+              Hire me
+            </Button>
+          </a>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <Button
               size="lg"
@@ -35,6 +37,8 @@ export default function Hero() {
           </a>
         </div>
       </motion.div>
+
+      {/* About Section */}
       <motion.div
         id="about"
         initial={{ opacity: 0, y: 20 }}
@@ -44,7 +48,7 @@ export default function Hero() {
       >
         <h2 className="text-3xl font-bold mb-6 text-white">About Me</h2>
         <p className="mb-4 text-lg text-gray-300">
-        My name is Pankaj Pawar, and I have completed my Bachelors degree
+          My name is Pankaj Pawar, and I have completed my Bachelors degree
           (BE) in the Internet of Things (IoT) branch. Currently, I am focusing
           on learning MERN stack development. I am working with technologies
           like React, Node.js, Express.js, and MongoDB, applying them in my
