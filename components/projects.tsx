@@ -18,7 +18,7 @@ const projects = [
     description:
       "A secure and user-friendly password generator website that creates strong, random passwords with just a click. It allows users to customize password length and complexity to ensure maximum security.",
     technologies: ["React", "Tailwind", "Vite"],
-    image: "https://via.placeholder.com/300x200?text=Password+Generator", // Replace with your project image link
+    image: "password.png", // Replace with your project image link
     github: "https://github.com/pankaj-maker/password_generator",
     live: "https://glistening-toffee-179c13.netlify.app",
   },
@@ -27,11 +27,65 @@ const projects = [
     description:
       "I built a Pokémon website that allows users to search for their favorite Pokémon and view them as interactive cards. The site features a smooth user experience, where each card showcases essential details about the Pokémon, making it easy to explore the Pokémon universe and submission with an intuitive UI.",
     technologies: ["javascript", "Tailwind CSS", "Vite"],
-    image: "https://via.placeholder.com/300x200?text=Pokemon", // Replace with your project image link
+    image: "pokemon.png", // Replace with your project image link
     github: "https://github.com/pankaj-maker/pokedex",
     live: "https://pokemo-pokemon.netlify.app",
   },
-];
+  {
+    title: "Naughts & Crosses",
+    description:
+      "A simple and intuitive game where players can play as either a naught or a cross. The game is designed to be challenging and engaging, with a focus on strategy and decision-making.",
+    technologies: ["Html", "SCSS", "Javascript"],
+    image: "naughts.png", // Replace with your project image link
+    github: "https://github.com/pankaj-maker/naughts_and_crosses",
+    live: "https://naughts-crossess.netlify.app",
+  },
+  {
+    title: "Alpha-Tauri",
+    description:
+      "A visually captivating website showcasing the modern design and innovation of Alpha Tauri, built using HTML and CSS. The project focuses on elegant layouts, gradient backgrounds, and a seamless user experience, emphasizing creative aesthetics",
+    technologies: ["Html", "CSS"],
+    image: "alpha.png", // Replace with your project image link
+    github: "https://github.com/pankaj-maker/alph-tauri",
+    live: "https://alpha-tauri12.netlify.app",
+  },
+  {
+    title: "inversify-string",
+    description:
+      "This project demonstrates a simple algorithm to reverse a string and then reverse it again to retrieve the original string. It showcases the basic understanding of string manipulation and logical thinking in coding, while also emphasizing problem-solving skills.",
+    technologies: ["Html", "CSS", "JavaScript"],
+    image: "inversify.png", // Replace with your project image link
+    github: "https://github.com/pankaj-maker/inversify",
+    live: "https://inversify-string.netlify.app",
+  },
+  {
+    title: "Task-master",
+    description:
+      "This project is a Task Master app, designed to manage and organize tasks efficiently. Users can add, update, and delete tasks while tracking their progress. It helps enhance productivity and demonstrates the implementation of interactive UI components, data handling, and state management",
+    technologies: ["Html", "CSS", "JavaScript"],
+    image: "task.png", 
+    github: "https://github.com/pankaj-maker/Taskmaster",
+    live: "https://task-master01.netlify.app",
+  },
+  {
+    title: "Rock-paper-scissors",
+    description:
+      "This is a Rock Paper Scissors game where users can choose their move and play against the computer. It features an interactive interface with real-time score tracking and smooth animations",
+    technologies: ["Html", "CSS", "JavaScript"],
+    image: "rock.png",
+    github: "https://github.com/pankaj-maker/rock-paper-scissor",
+    live: "https://rock-papar-scissor.netlify.app",
+  },
+  {
+    title: "Untitled",
+    description:
+      "Untitled Content Form is designed to help you easily get in touch with our team. Whether you have a project idea, need assistance, or want to collaborate, simply fill out the form with your details and we'll get back to you promptly. We offer services in website design, UX, strategy, content, and more",
+    technologies: ["Html", "Tailwind CSS", "JavaScript","React"],
+    image: "untitled.png",
+    github: "https://github.com/pankaj-maker/Untitled",
+    live: "https://untitled-rho-cyan.vercel.app",
+  },
+ ];
 
 export default function Projects() {
   return (

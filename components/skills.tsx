@@ -11,7 +11,7 @@ const skillsData = {
     { name: "HTML/CSS", icon: <Code className="w-4 h-4" /> },
     { name: "Tailwind", icon: <Box className="w-4 h-4" /> },
     { name: "JavaScript", icon: <FileCode className="w-4 h-4" /> },
-    { name: "Shadcn", icon: <Box className="w-4 h-4" /> },
+    { name: "ShadcnUi", icon: <Box className="w-4 h-4" /> },
   ],
   Backend: [
     { name: "Node.js", icon: <Server className="w-4 h-4" /> },
