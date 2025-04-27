@@ -1,6 +1,6 @@
-"use client"
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+"use client";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
@@ -18,7 +18,11 @@ export default function Hero() {
           I am Mern Stack Developer Building the Future of Web Development
         </p>
         <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
-          <a href="mailto:pankajpawar956@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="mailto:pankajpawar956@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               className="bg-transparent text-white border-2 border-white hover:bg-white/10 text-lg px-8 py-4"
@@ -48,20 +52,20 @@ export default function Hero() {
       >
         <h2 className="text-3xl font-bold mb-6 text-white">About Me</h2>
         <p className="mb-4 text-lg text-gray-300">
-          My name is Pankaj Pawar, and I have completed my Bachelors degree
-          (BE) in the Internet of Things (IoT) branch. Currently, I am focusing
-          on learning MERN stack development. I am working with technologies
-          like React, Node.js, Express.js, and MongoDB, applying them in my
-          personal projects. I have a passion for programming and
-          problem-solving, always striving to tackle new challenges. I believe
-          in continuously improving my skills and creating scalable, efficient
-          solutions.
+          My name is Pankaj Pawar, and I have completed my Bachelors degree (BE)
+          in the Internet of Things (IoT) branch. Currently, I am focusing on
+          learning MERN stack development. I am working with technologies like
+          React, Node.js, Express.js, and MongoDB, applying them in my personal
+          projects. I have a passion for programming and problem-solving, always
+          striving to tackle new challenges. I believe in continuously improving
+          my skills and creating scalable, efficient solutions.
         </p>
         <p className="text-lg text-gray-300">
-          When I m not coding, I enjoy learning new technologies and contributing to open-source projects.
-          I believe in continuous learning and staying updated with the latest trends in web development.
+          When I m not coding, I enjoy learning new technologies and
+          contributing to open-source projects. I believe in continuous learning
+          and staying updated with the latest trends in web development.
         </p>
       </motion.div>
     </section>
-  )
+  );
 }
